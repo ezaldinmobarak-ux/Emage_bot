@@ -21,7 +21,7 @@ from telegram.ext import (
 # ------------------------------------------------------------------
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "ضع_التوكن_هنا")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "ضع_مفتاح_جيميني_هنا")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-image")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-image")
 
 # ايدي المستخدمين المسموح لهم (فارغ = الجميع). مثال: "123456789,987654321"
 ALLOWED_USERS = {
